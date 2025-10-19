@@ -2,7 +2,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #b9b4c9;
         }
          h1 {
             display: flex;
@@ -64,10 +64,10 @@
             background-color: blue;
             color: white;
             padding: 10px 15px;
-            border: none;
+            border: 5px solid red;
             border-radius: 4px;
             cursor: pointer;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #06b2e6;
         }
