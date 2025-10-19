@@ -16,3 +16,10 @@ scrlBtn.forEach((scrlBtntn) => {
     });
   });
 });
+
+const photos = document.querySelectorAll('#photos img');
+        photos.forEach(photo => {
+            photo.addEventListener('click', () => {
+              window.open(photo.src, '_blank');
+            });
+        });
