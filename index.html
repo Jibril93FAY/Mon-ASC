@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASC LAMAN JI</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <h1>Bienvenue à l'ASC LAMAN JI</h1>
+    <p>Ceci est la page d'accueil de l'ASC LAMAN JI.</p>
+    <header class="bg-blue-700 text-white">
+         <div class="container mx-auto flex justify-between items-center p-4">
+                <a class="text-2xl font-bold" href="/index.html">Accueil</a>
+        <nav>
+            <ul class="flex space-x-4">
+                <li></li>
+                <li><a href="pages/about.html" class="hover:text-green-500 font-bold">À propos</a></li>
+                <li><a href="pages/services.html" class="hover:text-green-500 font-bold">Services</a></li>
+                <li><a href="pages/contact.html" class="hover:text-green-500 font-bold">Contact</a></li>
+                <li><a href="pages/galerie.html" class="hover:text-green-500 font-bold">Galerie</a></li>
+            </ul>
+        </nav>
+         </div>
+    </header>
+        
+    <main>
+        <p>Découvrez nos activités et événements. <br>Pour cela: </p>
+        <h3>Connectez-vous</h3>
+        <form action="connectez-vous">
+            <fieldset>
+                <legend>Informations de connexion</legend>
+                <input type="text" placeholder="Nom d'utilisateur" required> <br>
+                <input type="password" placeholder="Mot de passe" required><br>
+                <button type="submit">Se connecter</button>
+            </fieldset>
+        </form>
+        <h3>Créer un compte</h3>
+        <form action="créer-un-compte">
+            <fieldset>
+                <legend>Informations de création de compte</legend>
+                <input type="text" placeholder="Prénom" required><br>
+                <input type="text" placeholder="Nom" required><br>
+                <input type="number" placeholder="téléphone" required><br>
+                <input type="text" placeholder="Nom d'utilisateur" required><br>
+                <input type="email" placeholder="Email" required><br>
+                <input type="password" placeholder="Mot de passe" required><br>
+                <input type="password" placeholder="Confirmer le mot de passe" required><br>
+            </fieldset>
+            <button type="submit">Créer un compte</button>
+        </form>
+        <section id="home">
+            <h2>Accueil</h2>
+            <p>Bienvenue sur le site officiel de l'ASC LAMAN JI.</p>
+        </section>
+        <section id="about">
+            <h2>À propos</h2>
+            <p>L'ASC LAMAN JI est une association sportive et culturelle dédiée à la promotion du sport et de la culture dans notre communauté.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Entraînements sportifs</li>
+                <li>Événements culturels</li>
+                <li>Ateliers et formations</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour plus d'informations, veuillez nous contacter à
+                <a href="mailto:info@asclamaji.sn">info@asclamaji.sn</a>
+            </p>
+        </section><br> <br>
+    </main>
+    <footer>
+        <p>&copy; 2025 ASC LAMAN JI. Tous droits réservés.</p>
+    </footer>
+    <button id="scrollToTopBtn" class="fixed hidden bottom-5 right-5 bg-amber-950 text-amber-100 font-bold px-4 py-2 rounded hover:bg-amber-700 cursor-pointer">&#8679;</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
