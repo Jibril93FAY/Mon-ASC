@@ -2,7 +2,7 @@ const scrlBtn = document.querySelectorAll("#scrollToTopBtn");
 
 scrlBtn.forEach((scrlBtntn) => {
   window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 100) {
       scrlBtntn.classList.remove("hidden");
     } else {
       scrlBtntn.classList.add("hidden");
