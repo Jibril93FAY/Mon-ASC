@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1>Bienvenue à l'ASC LAMAN JI</h1>
-    <p>Ceci est la page d'accueil de l'ASC LAMAN JI.</p>
+    <p class="text-bold text-xl">Ceci est la page d'accueil de l'ASC LAMAN JI.</p>
     <header class="bg-blue-700 text-white">
          <div class="container mx-auto flex justify-between items-center p-4">
                 <a class="text-2xl font-bold" href="/index.html">Accueil</a>
@@ -28,40 +28,40 @@
     </header>
         
     <main>
-        <p>Découvrez nos activités et événements. <br>Pour cela: </p>
-        <h3>Connectez-vous</h3>
+        <p class="text-bold text-xl">Découvrez nos activités et événements. <br>Pour cela: </p>
+        <h3 class="text-bold text-xl">Connectez-vous</h3>
         <form action="connectez-vous">
             <fieldset>
                 <legend>Informations de connexion</legend>
-                <input type="text" placeholder="Nom d'utilisateur" required> <br>
-                <input type="password" placeholder="Mot de passe" required><br>
+                <input type="text" placeholder="Nom d'utilisateur" style="border: 1px solid red;" required> <br>
+                <input type="password" placeholder="Mot de passe" style="border: 1px solid red;" required><br>
                 <button type="submit">Se connecter</button>
             </fieldset>
         </form>
-        <h3>Créer un compte</h3>
+        <h3 class="text-bold text-xl">Créer un compte</h3>
         <form action="créer-un-compte">
             <fieldset>
                 <legend>Informations de création de compte</legend>
-                <input type="text" placeholder="Prénom" required><br>
-                <input type="text" placeholder="Nom" required><br>
-                <input type="number" placeholder="téléphone" required><br>
-                <input type="text" placeholder="Nom d'utilisateur" required><br>
-                <input type="email" placeholder="Email" required><br>
-                <input type="password" placeholder="Mot de passe" required><br>
-                <input type="password" placeholder="Confirmer le mot de passe" required><br>
+                <input type="text" placeholder="Prénom" style="border: 1px solid red;" required><br>
+                <input type="text" placeholder="Nom" style="border: 1px solid red;" required><br>
+                <input type="number" placeholder="téléphone" style="border: 1px solid red;" required><br>
+                <input type="text" placeholder="Nom d'utilisateur" style="border: 1px solid red;" required><br>
+                <input type="email" placeholder="Email" style="border: 1px solid red;" required><br>
+                <input type="password" placeholder="Mot de passe" style="border: 1px solid red;" required><br>
+                <input type="password" placeholder="Confirmer le mot de passe" style="border: 1px solid red;" required><br>
             </fieldset>
             <button type="submit">Créer un compte</button>
         </form>
         <section id="home">
-            <h2>Accueil</h2>
+            <h2 class="text-bold text-xl text-blue-700">Accueil</h2>
             <p>Bienvenue sur le site officiel de l'ASC LAMAN JI.</p>
         </section>
         <section id="about">
-            <h2>À propos</h2>
+            <h2 class="text-bold text-xl text-blue-700">À propos</h2>
             <p>L'ASC LAMAN JI est une association sportive et culturelle dédiée à la promotion du sport et de la culture dans notre communauté.</p>
         </section>
         <section id="services">
-            <h2>Services</h2>
+            <h2 class="text-bold text-xl text-blue-700">Services</h2>
             <ul>
                 <li>Entraînements sportifs</li>
                 <li>Événements culturels</li>
@@ -78,7 +78,7 @@
     <footer>
         <p>&copy; 2025 ASC LAMAN JI. Tous droits réservés.</p>
     </footer>
-    <button id="scrollToTopBtn" class="fixed hidden bottom-5 right-5 bg-amber-950 text-amber-100 font-bold px-4 py-2 rounded hover:bg-amber-700 cursor-pointer">&#8679;</button>
+    <button id="scrollToTopBtn" class="fixed hidden bottom-5 right-5">&#8679;</button>
 
     <script src="js/script.js"></script>
 </body>

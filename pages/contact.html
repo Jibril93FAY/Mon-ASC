@@ -29,15 +29,15 @@
             <h2>Contactez-nous</h2>
             <form action="submit_form.php" method="post">
                 <label for="name">Nom:</label><br>
-                <input type="text" id="name" name="name" required><br><br>
+                <input style="border: 1px solid #e60b0b;" type="text" placeholder="ex: Djibril FAYE" id="name" name="name" required><br><br>
                 
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                
+                <input style="border: 1px solid #e60b0b;" type="email" placeholder="ex: djibril@example.com" id="email" name="email" required><br><br>
+
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea><br><br>
-                
-                <input type="submit" value="Envoyer">
+                <textarea style="border: 1px solid #e60b0b; width: 100%;" placeholder="Ecrivez votre message ici" id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Envoyer</button>
             </form>
         </section>
         <section id="location">
@@ -49,8 +49,8 @@
     <footer>
         <p>&copy; 2025 ASC LAMAN JI. Tous droits réservés.</p>
     </footer>
-    <button id="scrollToTopBtn" class="fixed hidden bottom-5 right-5 bg-amber-950 text-amber-100 font-bold px-4 py-2 rounded hover:bg-amber-700 cursor-pointer">&#8679;</button>
+    <button id="scrollToTopBtn" class="fixed hidden bottom-5 right-5">&#8679;</button>
 
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

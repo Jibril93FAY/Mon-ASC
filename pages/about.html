@@ -24,30 +24,38 @@
         </nav>
     </header>
     <main>
-        <section id="about">
-            <h2>À propos de nous</h2>
-            <p>L'ASC LAMAN JI est une association dédiée à la promotion du sport et du bien-être dans notre communauté. Nous offrons une variété de programmes et d'activités pour tous les âges.</p>
+        <section id="about" class="md:col-span-3">
+            <div class="flex flex-col items-center">
+                <h2 class="text-5xl md:text-6xl font-bold">À propos de nous</h2>
+                <p>L'ASC LAMAN JI est une association dédiée à la promotion du sport et du bien-être dans notre communauté. Nous offrons une variété de programmes et d'activités pour tous les âges.</p>
+            </div>
         </section>
-        <section id="mission">
-            <h2>Notre mission</h2>
-            <p>Notre mission est de favoriser un mode de vie sain et actif en fournissant des installations sportives de qualité et en organisant des événements communautaires.</p>
+
+        <section id="details" class="mt-8">
+            <div class="container mx-auto text-center px-4 py-8 space-y-8 grid md:grid-cols-2 gap-8">
+               <section id="mission" class="bg-blue-100 p-4 rounded-lg shadow p-6 hover:scale-105 transform transition">
+                   <h2 class="text-3xl font-bold text-blue-900">Notre mission</h2>
+                   <p>Notre mission est de favoriser un mode de vie sain et actif en fournissant des installations sportives de qualité et en organisant des événements communautaires.</p>
+               </section>
+               <section id="team" class="bg-blue-100 p-4 rounded-lg shadow p-6 hover:scale-105 transform transition">
+                   <h2 class="text-3xl font-bold text-blue-900">Notre équipe</h2>
+                   <p>Notre équipe est composée de professionnels passionnés par le sport et le développement communautaire, travaillant ensemble pour atteindre nos objectifs.</p>
+               </section>
+               <section id="history" class="bg-blue-100 p-4 rounded-lg shadow p-6 hover:scale-105 transform transition">
+                   <h2 class="text-3xl font-bold text-blue-900">Notre histoire</h2>
+                   <p>L'ASC LAMAN JI a été fondée en 2005 avec l'objectif de créer un espace où les membres de la communauté peuvent se réunir, s'entraîner et participer à des activités sportives.</p>
+                </section>
+                <section id="values" class="bg-blue-100 p-4 rounded-lg shadow p-6 hover:scale-105 transform transition">
+                   <h2 class="text-3xl font-bold text-blue-900">Nos valeurs</h2>
+                      <ul>
+                         <li>Inclusion</li>
+                         <li>Respect</li>
+                         <li>Excellence</li>
+                         <li>Engagement communautaire</li>
+                      </ul>
+                </section>
+           </div>
         </section>
-        <section id="team">
-            <h2>Notre équipe</h2>
-            <p>Notre équipe est composée de professionnels passionnés par le sport et le développement communautaire, travaillant ensemble pour atteindre nos objectifs.</p>
-        </section>
-        <section id="history">
-            <h2>Notre histoire</h2>
-            <p>L'ASC LAMAN JI a été fondée en 2005 avec l'objectif de créer un espace où les membres de la communauté peuvent se réunir, s'entraîner et participer à des activités sportives.</p>
-        </section>
-        <section id="values">
-            <h2>Nos valeurs</h2>
-            <ul>
-                <li>Inclusion</li>
-                <li>Respect</li>
-                <li>Excellence</li>
-                <li>Engagement communautaire</li>
-            </ul>
     </main> <br> <br>
     
     <footer>
@@ -55,6 +63,6 @@
     </footer>
     <button id="scrollToTopBtn" class="fixed hidden bottom-5 right-5 bg-amber-950 text-amber-100 font-bold px-4 py-2 rounded hover:bg-amber-700 cursor-pointer">&#8679;</button>
 
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
